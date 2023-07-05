@@ -47,6 +47,16 @@
 
 }
 
+.nav__list.grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav__item {
+    margin-right: 10px; /* Adjust the desired gap value */
+  }
+  
+
 /* active link */
 .active-link,
 .nav__link:hover {
